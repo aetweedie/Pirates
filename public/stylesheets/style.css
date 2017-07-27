@@ -1,8 +1,35 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+html {
+  font-family: 'Acme', sans-serif;
 }
 
-a {
-  color: #00B7FF;
+header {
+  height: 50px;
+  color: #FBF2C0;
+  background-color: #698F3F;
+  padding-top: 7px;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+img {
+  float: right;
+  height: 400px;
+  margin-top: 200px;
+}
+
+footer {
+  height: 25px;
+  color: #FBF2C0;
+  background-color: #352208;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5px;
+}
+
+footer h2 {
+  float: right;
 }
